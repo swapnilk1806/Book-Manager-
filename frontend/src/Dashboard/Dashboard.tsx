@@ -8,7 +8,7 @@ import { BookCard } from './BookCard';
 import { BookModal } from './BookModal';
 
 export const Dashboard: React.FC = () => {
-  const { user } = useAuth();
+ useAuth();
   const { books, stats, loading, fetchDashboard, fetchBooks, addBook, updateBook, deleteBook } = useBooks();
   const [statusFilter, setStatusFilter] = useState('');
   const [tagFilter, setTagFilter] = useState('');
