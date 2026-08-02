@@ -14,8 +14,6 @@
 
 # 📸 Application Screenshots
 
-> Save all screenshots inside the **screenshots** folder.
-
 ## 📁 Project Folder Structure
 
 ---
