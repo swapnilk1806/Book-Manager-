@@ -23,9 +23,5 @@ app.use('/api', bookRoutes);  // This will handle /api/dashboard and /api/books
 // Error handling middleware
 app.use(errorHandler);
 
-// Start server
-const PORT = process.env.PORT ;
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
-  console.log(`📚 API URL: http://localhost:${PORT}/api`);
-});
+
+module.exports = app;
